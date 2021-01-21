@@ -1,13 +1,13 @@
 <!--
  * @Author: your name
  * @Date: 2021-01-20 18:55:41
- * @LastEditTime: 2021-01-21 10:22:37
+ * @LastEditTime: 2021-01-21 12:04:56
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /vue3-cli-ts-antd/src/App.vue
 -->
 <template>
-  <div>App</div>
+  <div>App1</div>
 </template>
 
 <script>

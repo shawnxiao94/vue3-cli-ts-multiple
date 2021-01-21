@@ -49,7 +49,14 @@
     "typescript": "^4.1.3",
     "vue-property-decorator": "^9.1.2"
   },
-
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "src/**/*.{jsx,txs,ts,js,json,less,vue,md}": [
+      "vue-cli-service lint"
+    ]
+  },
   "browserslist": [
     "> 1%",
     "last 2 versions",
